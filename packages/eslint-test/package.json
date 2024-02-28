@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/rule.test.js"
+  },
+  "dependencies": {
+    "eslint-plugin-test": "workspace:*"
+  }
+}
