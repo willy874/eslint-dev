@@ -15,9 +15,9 @@ module.exports = {
     const ctx = context
     /** @type {import('eslint').Rule.RuleListener} */
     return {
-      // 'CallExpression[callee.name="test"]'(node) {
-      //   console.log(node);
-      // },
+      'CallExpression[callee.name="test"]'(node) {
+        console.log(node);
+      },
       VariableDeclarator(node) {
         if (node.parent.kind === "const") {
           if (node.id.type === "Identifier" && node.id.name === "foo") {

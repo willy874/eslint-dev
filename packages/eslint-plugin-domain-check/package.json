@@ -1,5 +1,5 @@
 {
-    "name": "eslint-plugin-test",
+    "name": "eslint-plugin-domain-check",
     "main": "./index.js",
     "scripts": {
         "test": "node ./rule.test.js"

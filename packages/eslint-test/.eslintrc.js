@@ -17,6 +17,7 @@ module.exports = {
       files: ['src/**/*.js'],
       rules: {
         "test/enforce-foo-bar": "error",
+        "domain-check/path-check": "error",
       },
     }
   ]

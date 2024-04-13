@@ -8,6 +8,7 @@
     "test": "node ./tests/rule.test.js"
   },
   "dependencies": {
-    "eslint-plugin-test": "workspace:*"
+    "eslint-plugin-test": "workspace:*",
+    "eslint-plugin-domain-check": "workspace:*"
   }
 }
